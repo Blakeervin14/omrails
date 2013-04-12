@@ -10,6 +10,7 @@ gem 'webrick', '1.3.1'
 gem 'faker'		
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'friendly_id', '~> 4.0.9'
 group :production do
 	gem 'pg'
 end
