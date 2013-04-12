@@ -5,7 +5,8 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
 gem "paperclip", "~> 3.0"
-
+gem 'aws-sdk'   
+gem 'webrick', '1.3.1'   		
 group :production do
 	gem 'pg'
 end
